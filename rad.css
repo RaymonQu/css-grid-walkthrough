@@ -36,6 +36,26 @@ html {
 }
 
 /* Style your grid here */
+ /*
 #grid {
-    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
 }
+
+*/
+
+/*
+#grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+*/
+
+#grid {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+}
+
